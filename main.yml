@@ -27,8 +27,6 @@
         state: present
         update_cache: true
 
-    - fail
-
     - name: Copy a web page
       copy:
         content: |
